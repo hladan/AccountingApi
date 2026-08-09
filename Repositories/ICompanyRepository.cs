@@ -1,5 +1,5 @@
 ﻿using Accounting.Api.DTOs;
-usin Accounting.Api.Models;
+using Accounting.Api.Models;
 
 
 namespace Accounting.Api.Repositories
