@@ -15,9 +15,11 @@ namespace Accounting.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(_companyService.GetAll());
+            var companies = await _companyService.GetAll();
+
+            return Ok(companies);
         }
     }
 }

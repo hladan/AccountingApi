@@ -22,7 +22,8 @@ namespace Accounting.Api.Repositories
                 .Select(c => new CompanyDto
                 {
                     Id = c.Id,
-                    Name = c.Name
+                    Name = c.Name,
+                    Phone = c.Phone
                 })
                 .ToListAsync();
         }
