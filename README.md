@@ -13,13 +13,19 @@ The goal of this project is to design and develop a backend platform for account
 
 ## Architecture
 The project follows a layered architecture:
+```text
 Controller
-    ↓
+    |
+    v
 Service
-    ↓
+    |
+    v
 Repository
-    ↓
+    |
+    v
 Entity Framework Core
-    ↓
+    |
+    v
 PostgreSQL Database
+```
 
