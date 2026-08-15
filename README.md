@@ -32,9 +32,10 @@ Controllers handle HTTP requests and responses. Services contain business logic,
 
 ## API testing
 API endpoints are tested using Postman. Example: 
-
+```text
 GET    /api/company
 GET    /api/company/{id}
 POST   /api/company
 PUT    /api/company/{id}
 DELETE /api/company/{id}
+```
