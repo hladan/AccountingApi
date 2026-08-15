@@ -28,4 +28,4 @@ Entity Framework Core
     v
 PostgreSQL Database
 ```
-
+Controllers handle HTTP requests and responses. Services contain business logic, and coordinate operations between controllers and repositories. Repositories handle database operations. 
