@@ -29,3 +29,12 @@ Entity Framework Core
 PostgreSQL Database
 ```
 Controllers handle HTTP requests and responses. Services contain business logic, and coordinate operations between controllers and repositories. Repositories handle database operations. 
+
+## API testing
+API endpoints are tested using Postman. Example: 
+
+GET    /api/company
+GET    /api/company/{id}
+POST   /api/company
+PUT    /api/company/{id}
+DELETE /api/company/{id}
