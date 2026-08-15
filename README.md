@@ -44,7 +44,7 @@ DELETE /api/company/{id}
 - .NET 10 SDK
 - PostgreSQL 18
 ### Setup
-1. Clone the repository:
+** 1. ** Clone the repository:
 ```text
 git clone https://github.com/hladan/AccountingApi.git
 ```
