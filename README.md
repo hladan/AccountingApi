@@ -43,5 +43,5 @@ DELETE /api/company/{id}
 ### Requirements
 - .NET 10 SDK
 - PostgreSQL 18
-###Setup
+### Setup
 1. Clone the repository:
