@@ -1,5 +1,4 @@
 # AccountingApi in summary
-
 A RESTful API for an accounting platform built with ASP.NET Core.
 The goal of this project is to design and develop a backend platform for accounting systems, focusing on clean architecture, database design, and modern backend development practices.
 
@@ -39,3 +38,10 @@ POST   /api/company
 PUT    /api/company/{id}
 DELETE /api/company/{id}
 ```
+
+## Running the project
+### Requirements
+- .NET 10 SDK
+- PostgreSQL 18
+###Setup
+1. Clone the repository:
