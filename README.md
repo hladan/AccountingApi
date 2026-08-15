@@ -48,15 +48,15 @@ DELETE /api/company/{id}
 ```text
 git clone https://github.com/hladan/AccountingApi.git
 ```
-2. Configure the database connection in:
+**2.** Configure the database connection in:
 ```text
 appsettings.json
 ```
-3. Apply migrations:
+**3.** Apply migrations:
 ```text
 dotnet ef database update
 ```
-4. Run the API:
+**4.** Run the API:
 ```text
 dotnet run
 ```
