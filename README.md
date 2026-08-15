@@ -10,3 +10,16 @@ The goal of this project is to design and develop a backend platform for account
 - PostgreSQL
 - Postman
 - GitHub Actions (CI/CD)
+
+## Architecture
+The project follows a layered architecture:
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Entity Framework Core
+    ↓
+PostgreSQL Database
+
