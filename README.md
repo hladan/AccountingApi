@@ -45,3 +45,6 @@ DELETE /api/company/{id}
 - PostgreSQL 18
 ### Setup
 1. Clone the repository:
+```text
+git clone https://github.com/hladan/AccountingApi.git
+```
